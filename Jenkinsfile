@@ -4,4 +4,7 @@ node {
 
    // Checkout code from repository
    checkout scm
+   
+   // create artifact
+   archiveArtifacts artifacts: 'test.txt'
 }
