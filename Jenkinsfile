@@ -6,5 +6,5 @@ node {
    checkout scm
    
    // create artifact
-   archiveArtifacts artifacts: '*.txt'
+   archiveArtifacts artifacts: '**'
 }
